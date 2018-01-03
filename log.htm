@@ -1,0 +1,95 @@
+<html>
+<head>
+	<script type="text/javascript" src = "myscript.js">
+	</script>
+	<title>My first login page</title>
+	<link href="https://fonts.googleapis.com/css?family=Griffy" rel="stylesheet">
+	<style type="text/css"href="mystyle.css"></style>
+
+	<img src="ab.jpg"  width="200px" height="200px" >
+	<style type="text/css">
+	img
+	{
+		border:5px white;
+		border-radius: 100%;
+		margin-left: 44%;
+	
+	}
+	body
+	{
+		background-image: url("my.jpg");
+		background-size: cover;
+	
+	}
+	h1
+	{
+		text-align: center;
+		font-size: 30px;
+		font-family: griffy;
+	}
+	.user_details{
+		width: 350px;
+		height: 280px;
+		background-color: rgba(0,255,255,0.5);
+		position: absolute;
+		margin-left: 37.5%;
+		padding-top: 30px;
+		padding-left: 40px;
+		border-radius: 15px;
+		font-size: 25;
+		font-size: bold;
+		font-family: griffy;
+	}
+	.user_details input[type="text"]{
+		width: 200px;
+		height: 35px;
+		border-radius: 5px;
+		border: 0;
+		padding-left: 18px;
+	}
+.user_details input[type="password"]{
+		width: 200px;
+		height: 35px;
+		border-radius: 5px;
+		border: 0;
+		padding-left: 40px;
+}
+.user_details button[onclick="check()"]{
+		width: 100px;
+		height: 35px;
+		border-radius: 5px;
+		border: 0;
+		font-weight: bold;
+}
+
+button{
+	background-color: #1aa3ff;
+	color:white;
+}
+button:hover{
+	opacity: 0.9;
+}
+}
+<button class="button button3">16px</button>
+	</style>
+</head>
+<body>
+
+<h1>Wellcome To New World</h1>
+<div class="user_details">
+	<label>User Name or Email Address</label><br>
+	<input id="user" type="text" placeholder="Enter Username or Email Id"><br>
+	<label>Password</label>	<br>
+	<input id="code" type="password" placeholder="Enter your Password"><br><br>
+	<button onclick="check()"><strong>Sign In</strong></button><br><br>
+		New Here? &nbsp; Join Now
+
+</div>
+<script src="myscript.js">
+
+
+
+</script>
+</body>
+
+</html>
